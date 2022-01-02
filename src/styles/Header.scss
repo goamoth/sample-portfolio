@@ -1,0 +1,39 @@
+@import './Variables';
+
+.site-navbar {
+   background: #fff !important;
+   padding: .9rem 20px !important;
+   max-width: 1500px;
+   margin-left: auto;
+   margin-right: auto;
+
+   .navbar-brand {
+      text-transform: capitalize;
+
+      .brand {
+         font-weight: bold;
+         border: 2px solid $blue;
+         background: $white;
+         color: $black;
+         padding: 3px;
+         @include border-radius(5px);
+      }
+   }
+
+   .navbar-collapse {
+      .nav-item {
+         .nav-link {
+            padding: 8px 15px;
+            color: $blue2;
+            margin: 0 5px 0 0;
+            transition: all ease .6s;
+         }
+
+         .nav-link:hover {
+            background: $blue2;
+            color: $white;
+            transform: translate(0, 8px);
+         }
+      }
+   }
+}

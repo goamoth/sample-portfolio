@@ -1,0 +1,20 @@
+/* Mixins --------------------------------- */
+@mixin border-radius($x) {
+   border-radius: $x;
+   -webkit-border-radius: $x;
+   -moz-border-radius: $x;
+   -o-border-radius: $x;
+   -khtml-border-radius: $x;
+}
+
+/* Colors --------------------------------- */
+$blue: #0080ff;
+$black: #000;
+$shadow: rgba(0,0,0,0.3);
+$white: #fff;
+$blue2: #0272bc;
+$cream: #f4f4f4;
+$dark-orange: #F87537;
+$orange: #FBA81F;
+$text: #353e42;
+

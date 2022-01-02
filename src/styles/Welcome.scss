@@ -1,0 +1,62 @@
+@import 'Variables';
+
+.row.welcome {
+   background: $cream url('../images/bk.svg') no-repeat 50% 0%;
+   margin: 5px auto 15px;
+   height: 650px;
+   max-width: 1500px;
+
+   .names {
+      color: $blue2;
+      font-size: 700%;
+      font-weight: bold;
+      margin: 100px 0  25px 150px;
+      word-spacing: 10px;
+   }
+
+   .career {
+      color: $text;
+      font-size: 170%;
+      margin: 0 0 30px 155px;
+
+      .js {
+         color: $dark-orange;
+         font-weight: 700;
+      }
+   }
+
+   .description {
+      border: 0px dotted green;
+      margin: 0 150px 50px 155px;
+      line-height: 2;
+      color: $black;
+      font-size: 110%;
+   }
+
+   .social {
+      border: 0px dotted green;
+      margin: 0 155px 50px;
+      padding: 15px 0;
+
+      h3 {
+         font-size: 110%;
+         margin-bottom: 20px;
+      }
+
+      .social-link:link, .social-link:visited {
+         border: 1px solid $dark-orange;
+         display: inline-block;
+         padding: 10px 15px;
+         @include border-radius(10px);
+         margin: 0 15px 0 0;
+         transition: all ease .6s;
+         color: $dark-orange;
+      }
+
+      .social-link:hover, .social-link:active {
+         border: 1px solid $blue;
+         color: $blue;
+         transform: translate(0, 8px);
+      }
+   }
+}
