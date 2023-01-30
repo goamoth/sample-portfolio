@@ -5,7 +5,7 @@ const Header = () => {
       <nav className="navbar site-navbar navbar-expand-lg navbar-light bg-light">
          <div className="container-fluid">
             <a className="navbar-brand" href="index.js">
-               <span className="brand">GO</span> George Owira
+               <span className="brand">GO</span> George Owira Amoth
             </a>
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
